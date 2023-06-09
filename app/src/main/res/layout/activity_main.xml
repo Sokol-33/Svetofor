@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LL_color"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FF0000"
+        android:text="@string/red_color"
+        android:textColor="#FFFFFFFF"
+        android:onClick="onClikBtnAddPhone"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FFE500"
+        android:text="@string/yellow_color"
+        android:textColor="#FFFFFFFF"
+        android:onClick="onClikBtnAddPhone_2"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#8BC34A"
+        android:text="@string/green_color"
+        android:textColor="#FFFFFFFF"
+        android:onClick="onClikBtnAddPhone_3"/>
+
+
+</LinearLayout>
